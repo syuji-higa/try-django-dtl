@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <th>ISBNコード</th>
+      <th>署名</th>
+      <th>価格</th>
+      <th>出版社</th>
+      <th>刊行日</th>
+    </tr>
+    {% for b in books %}
+    <tr>
+      <td>{{ b.isbn }}</td>
+      <td>{{ b.title }}</td>
+      <td>{{ b.price }}</td>
+      <td>{{ b.publisher }}</td>
+      <td>{{ b.published | date:'DATE_FORMAT' }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</body>
+</html>

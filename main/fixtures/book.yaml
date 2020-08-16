@@ -1,0 +1,16 @@
+- model: main.book
+  pk: 1
+  fields:
+    isbn: 987-4-7981-6364-2
+    title: 独習python
+    price: 3300
+    publisher: 翔泳社
+    published: 2020-06-22
+- model: main.book
+  pk: 2
+  fields:
+    isbn: 978-4-7741-9763-0
+    title: 3ステップでPython入門
+    price: 2480
+    publisher: 技術評論社
+    published: 2018-05-24

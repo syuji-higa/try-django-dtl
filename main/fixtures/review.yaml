@@ -1,0 +1,16 @@
+- model: main.review
+  pk: 1
+  fields:
+    book: 1
+    name: 山田太郎
+    body: |-
+      分かりやすくて良きかな。
+      マジ最高。
+- model: main.review
+  pk: 2
+  fields:
+    book: 2
+    name: 田中花子
+    body: |-
+      そいや。
+      ほいさ。
